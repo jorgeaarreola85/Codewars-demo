@@ -6,7 +6,8 @@
 //Return True if you're better, else False!
 
 //Note:
-//Your points are not included in the array of your class's points. For calculating the average point you may add your point to the given array!
+//Your points are not included in the array of your class's points. 
+//For calculating the average point you may add your point to the given array!
 
 
 
@@ -14,7 +15,9 @@
 //return true or false
 //examples console.log(betterThanAverage([3,2,11,19], 15))
   //console.log(betterThanAverage([3,2,11,19], 6))
-//write function that takes in an two parameters. use array.reduce to find averag of class scores of numbers in array. use ternary to compare to our score and return boolean value. 
+//write function that takes in an two parameters. 
+//use array.reduce to find averag of class scores of numbers in array. 
+//use ternary to compare to our score and return boolean value. 
 
 function betterThanAverage(classPoints, yourPoints) {
     return classPoints.reduce((a,b) => a + b, 0) / classPoints.length < yourPoints ? true : false
