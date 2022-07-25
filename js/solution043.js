@@ -10,8 +10,10 @@
 //take in string 
 //return string denoting which player won. 
 //see examples above
-//write fuction that uses conditional and  sets up a map/lookup table that says "for every option that player 1 can do, 
-//what is the option that player 2 might do that would lead to player 1 winning?" and then in order to determine who wins, look at what player 2 actually did to see if it matches.
+//write fuction that uses conditional and  sets up a map/lookup table that says
+// "for every option that player 1 can do, 
+//what is the option that player 2 might do that would lead to player 1 winning?"
+// and then in order to determine who wins, look at what player 2 actually did to see if it matches.
 
 const rps = (p1, p2) => {
     if (p1 === p2) return "Draw!";
@@ -23,3 +25,5 @@ const rps = (p1, p2) => {
       return "Player 2 won!";
     }
   };
+
+
