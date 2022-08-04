@@ -11,8 +11,8 @@
 
 //take in an array
 //return an integer
-//write function that uses .find and .filter to locate integer that appears odd number of times. 
+//write function that uses .find and .filter to locate integer that appears odd number of times.
 
 function findOdd(arr) {
-    return arr.find((item, index) => arr.filter(el => el == item).length % 2)
-  }
+  return arr.find((item, index) => arr.filter((el) => el == item).length % 2);
+}
