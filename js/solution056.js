@@ -13,8 +13,8 @@
 // 1 --> [1]
 
 function monkeyCount(n) {
-  var monkeys = [];
-  for (var i = 1; i < n + 1; i++) {
+  let monkeys = [];
+  for (let i = 1; i < n + 1; i++) {
     monkeys.push(i);
   }
   return monkeys;
