@@ -16,7 +16,7 @@
 //Test.assertEquals(feast("chickadee", "chocolate cake"), true)
 //Test.assertEquals(feast("brown bear", "bear claw"), false)
 
-//Psuedocode: get start and end letters of animanl name and compate them in turn to start and end of dish they are bringing.
+//Psuedocode: get start and end letters of animanl name and compare them in turn to start and end of dish they are bringing.
 //return true of false based on reverse.
 
 function feast(beast, dish) {
