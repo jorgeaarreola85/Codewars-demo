@@ -17,5 +17,5 @@
 //iterate over each array value and prepend the line
 
 var number = function (array) {
-  console.log(array.map((alpha, index) => `${index + 1}: ${alpha}`));
+  return array.map((alpha, index) => `${index + 1}: ${alpha}`);
 };
